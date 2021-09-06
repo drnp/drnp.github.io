@@ -1,6 +1,6 @@
 # 简历 - 张浩（互联网 - 技术 / 研发）
 
-**电话** +86-189xxxx9173
+**电话** +86-18910299173
 **邮箱** [conan.np@gmail.com](mailto:conan.np@gmail.com)
 
 ## 关于
