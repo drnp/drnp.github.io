@@ -11,37 +11,91 @@
 
 ## Experience
 
-### Parallel Future (2021/1 - 2021/8)
+### Parallel Future (2021/01 - 2021/8)
 
 #### PandaTV - Senior Architect
 
-### QiAnXin (2019/10 - 2021/1)
+- Completed the design, selection and planning of backend service architecture, micro-service during the tenure. Architecture based on go-micro V3, service-side development process specification, code review and other R&D.
+- Link service
+
+### QiAnXin (2019/10 - 2021/01)
 
 #### Office of engineers - Architect
 
-- 2019/10 - 2020/4 : Hiner - Publishing system of artifacts
-  
-- 2020/4 - 2021/1 : Fusion - Platform of digital measure & efficacy
+- 2019/10 - 2020/04 : Hiner - Publishing system of artifacts
+
+- 2020/04 - 2021/01 : Fusion - Platform of digital measure & efficacy
 
 ### Qihu.360 (2014/12 - 2017/12)
 
 #### PC Game group - Architect
 
-- 2014/12 - 2015/4 : Content and account service of mini-game platform
+- 2014/12 - 2015/04 : Content and account service of mini-game platform
 
 - 2014/12 - 2015/06 : PVR games / "Cool Run" series
 
 - 2015/03 - 2015/07 : Tetris online, multi-player version classic game
 
-- 2016/9 - 2017/1 : Containerization of micro-services, research and implementation
+- 2016/09 - 2017/01 : Containerization of micro-services, research and implementation
 
-- 2017/2 - 2017/7 : IO game - "Color & Color"
+- 2017/02 - 2017/07 : IO game - "Color & Color"
+
+### Qiyou Interactive (2012/02-2014/12)
+
+#### Architect / OPS / Tech support
+
+- 2012/05 : Simulation of SAE engine
+
+- 2013/01 - 2013/04 : Real-time service of "Dominance of Sango"
+
+### WuXianTianLi (2010/06-2012/04)
+
+#### 51YunCai - Architect
+
+- Design and implement of real-time pushing service, used in 51yuncai.com, written in C.
+- The technology selection, scheme design. PHP for view layer and JAVA for the data layer (not involved in JAVA project) and Oracle database.
+- Communicate support for CPIC project.
+
+### MEGA Media (2005/12 - 2006/08, 2007/10 - 2010/04)
+
+#### PHP developer
+
+- 2005/12 - 2006/08 : 5Jia1.com
+
+#### Game engineer
+
+- 2007/10 - 2008/08 : General service of cards game
+
+- 2007/12 - 2008/04 : "BlackJack"
+
+- 2008/07 - 2009/03 : "RealGo"
+
+- 2009/03 - 2010/04 : "Batoo"
+
+### Sina (2006/09 - 2007/09)
+
+#### Backend develop
+
+- User analysis of Sina Blog
+- Counter service of Sina Blog - memcachedb
+
+### QunZhi Shanghai (2004/10 - 2005/03)
+
+#### ComicV - Backend develop
 
 ## Projects
 
 ### Link (HereweTech)
 
+- Developed from the community version of the Long-Connection service of PandaTV, it provides clustered single-duplex / dual-duplex websocket, UDP frame synchronization and TCP gateway with logic script supported, and corresponding simple user system and runtime statistics.
+
+- Based on go-micro V3
+
 ### BS.Play
+
+- Game communication services after four iterations, basic services developed in C and embedded logic scripts implemented in LUA. Among them, a block-based memory pool (removed later), abstract IO multiplexint, static thread pool, simple spin-lock, full-stack websocket protocol and other basic components are implemented, and a set of LUA APIs are developed for event writing. The project has supported game businesses such as cards, strategy and casual battles, and non-game business such as market information pushing.
+
+- Rewritten in Go (Langer / Slater) Later.
 
 ### Attendance gateway of LaoQin cloud (Commercial)
 
