@@ -1,7 +1,10 @@
 # ZhangHao - Internet / R&D
 
 **Mobile** +86-18910299173
+
 **Email** [conan.np@gmail.com](mailto:conan.np@gmail.com)
+
+**WeChat** npngny
 
 ## About
 
@@ -10,6 +13,10 @@
 ### Summary
 
 ## Experience
+
+### MediaTrack (2021/09 - Now)
+
+#### Infrastructure - Architect
 
 ### Parallel Future (2021/01 - 2021/8)
 
