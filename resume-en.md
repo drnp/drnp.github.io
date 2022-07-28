@@ -14,7 +14,7 @@
 
 ## Experience
 
-### MediaTrack (2021/09 - Now)
+### MediaTrack (2021/09 - 2022/06)
 
 #### Infrastructure - Architect
 
