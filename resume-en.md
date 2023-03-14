@@ -144,7 +144,17 @@
 
 - 2012/05 : Simulation of SAE engine
 
+    During the migration of the game "WeiSango" from the Sina SAE platform to other IaaS public clouds, we encountered limitations with SAE's non-universal services. In a relatively short amount of time, we developed and launched a service called **FakeSAE**, which simulated the HTTP queue and scheduled task services of SAE, allowing the existing game business code to be migrated to other public cloud platforms with almost zero intrusion. FakeSaeQueue relies on Redis to provide queue storage, implements SAE's supported ordered and concurrent (unordered) queues using **C**, uses **Lua** as a configuration script, and eliminates SAE's original queue length limit. After the service was launched, it ran stably until the game was taken offline in 2018.
+
+    The "WeiSango" series, as a web game, has achieved over 7 years of profitable operation.
+
 - 2013/01 - 2013/04 : Real-time service of "Dominance of Sango"
+
+    "Dominance of Sango" is another web game planned by the company with a Three Kingdoms theme. The design style is more realistic than "WeiSango", and the combat system includes real-time logic. Inheriting the **communication service** and **millisecond-level timer** developed in a previous personal project, it provides basic support for the game's combat logic. The service main body is developed using **C** and embedded with logic scripts written in **Lua**. The game was interrupted due to business adjustments after the internal test.
+
+- Responsible for the overall **operations** and internal **IT management** of the company (due to the relatively small size of the company).
+
+    Managed and maintained the online and development testing servers and other resources, developed release processes and resource evaluation. Implemented a complete internal permission system, daily authentication mechanism based on LDAP, and connected all development resources and company human resource management, etc.
 
 ### WuXianTianLi (2010/06-2012/04)
 
@@ -160,22 +170,33 @@
 
 - 2005/12 - 2006/08 : 5Jia1.com
 
+    It was one of the early social platforms in China, focusing on campus communities and representing an early model of Web 2.0. The backend logic was implemented using **PHP**. I was responsible for designing and developing social modules such as **image storage** and **forums**. I also wrote **crawlers** to fetch and process on popular posts from forums on edunet, and later did some framework consolidation work.
+
 #### Game engineer
 
 - 2007/10 - 2008/08 : General service of cards game
 
-- 2007/12 - 2008/04 : "BlackJack"
+    The first version of real-time game service was developed using **C** for communication service and **Lua** for business logic, with a Flash client based on **AS3** (not flex). I **independently** completed the implementation of the service and participated in the development of the business logic for the first card game "BlackJack" based on it, which was launched and operated on uspace. However, it was taken down later due to regulatory restrictions.
 
 - 2008/07 - 2009/03 : "RealGo"
 
+    This project was focused on implementing a simulation of the game of Go (also known as Weiqi), rather than a traditional game. It strictly followed the rules of the 19-line Go game and allowed two players to play against each other. Despite having no prior knowledge of Go, the project was able to implement the complete Go rules using **Lua** and developed the main part of the Flash-based client. The project was online for a period of time and maintained a certain level of user activity, although it did not follow the typical standards used to measure the success of traditional games due to the unique nature of the user group.
+
 - 2009/03 - 2010/04 : "Batoo"
+
+    A game project in cooperation with the South Korean side, featuring non-standard Go rules, but rather a short-time game on 11/13 lines. In the absence of complete documentation and source code, the binary data protocol of the Korean game service was analyzed and organized, and an **AS3**-based client was rewritten to support Batoo's web version. Eventually, the Flash version could be fully synchronized and mixed with the client version. Batoo's domestic operation was closed after 2010.
 
 ### Sina (2006/09 - 2007/09)
 
 #### Backend develop
 
 - User analysis of Sina Blog
+
+    The user login status, browsing time, and behavior after login of the blog were counted through log tracking, and the detailed numerical values were used to support operation.
+
 - Counter service of Sina Blog - memcachedb
+
+    A data persistence implementation based on the modification of **memcached** 1.1x, using **BerkeleyDB** for actual storage, and relying on atomic operations of memcached for post-level access statistics. The service was a prototype implementation of the later open-source **memcachedb** project by Sina.
 
 ### QunZhi Shanghai (2004/10 - 2005/03)
 
