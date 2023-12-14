@@ -2,7 +2,7 @@
 
 ## Links
 
-[中文简历](resume-cn.md)
+[中文简历](resume-new.md)
 
 [Resume for English](resume-en.md)
 
